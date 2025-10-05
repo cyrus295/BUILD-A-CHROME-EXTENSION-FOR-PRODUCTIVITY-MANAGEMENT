@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Productivity Tracker</h3>
+            <div id="status" class="status tracking">Tracking...</div>
+        </div>
+        
+        <div class="current-site">
+            <div id="currentSite">No active site</div>
+            <div id="timeSpent" class="time">00:00:00</div>
+        </div>
+
+        <div class="controls">
+            <button id="toggleTracking" class="btn btn-primary">Pause Tracking</button>
+            <button id="openDashboard" class="btn btn-secondary">Dashboard</button>
+        </div>
+
+        <div class="quick-stats">
+            <div class="stat">
+                <span class="label">Productive:</span>
+                <span id="productiveTime" class="value">0h 0m</span>
+            </div>
+            <div class="stat">
+                <span class="label">Distracting:</span>
+                <span id="distractingTime" class="value">0h 0m</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button id="settings" class="btn-link">Settings</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

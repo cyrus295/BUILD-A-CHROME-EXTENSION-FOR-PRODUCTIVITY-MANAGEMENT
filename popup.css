@@ -1,0 +1,139 @@
+body {
+    width: 350px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.status.tracking {
+    background: #e8f5e8;
+    color: #27ae60;
+}
+
+.status.paused {
+    background: #ffebee;
+    color: #e74c3c;
+}
+
+.current-site {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#currentSite {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    word-break: break-all;
+}
+
+.time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+.btn-secondary {
+    background: #95a5a6;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #7f8c8d;
+}
+
+.quick-stats {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.stat:last-child {
+    margin-bottom: 0;
+}
+
+.label {
+    color: #7f8c8d;
+    font-size: 12px;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    color: #3498db;
+    cursor: pointer;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: #2980b9;
+}
